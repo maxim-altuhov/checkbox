@@ -1,0 +1,21 @@
+$font-family: "Montserrat",
+sans-serif;
+
+body {
+	font-family: $font-family;
+	outline: none;
+	background-color: #fff;
+}
+
+input,
+button,
+textarea {
+	font-family: $font-family;
+}
+
+// класс для плавного скрывания элемента
+// .hide {
+// 	opacity: 0;
+// 	transition: 800ms all;
+// 	z-index: -1 !important;
+// }
